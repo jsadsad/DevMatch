@@ -16,11 +16,15 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";  
 
+//Typography Styles
 h1,h2,h3 {
     font-family: 'Open sans', sans-serif;
 }
 
+//Background Gradient
 .navbar, .home-callout {
   /* Gradient provided by @_ighosh at uiGradients.com */
   background: #6A9113; /* fallback for old browsers */
@@ -29,6 +33,7 @@ h1,h2,h3 {
         
 }
 
+//Nav styles
 .navbar {
   border: none;
 }
@@ -47,9 +52,10 @@ h1,h2,h3 {
   color: white;
   opacity: 0.75;
 }
-
 -This is not necessary anymore becauase we are using SAAS, but is needed for normal CSS because you can't nest like that.-
 */
+
+// Home Page Styles
 .home-callout {
   color: white;
   margin-top: -20px;
