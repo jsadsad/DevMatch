@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="container">
   <div class="row">
     <h3 class="text-center">Contact Us</h3>
@@ -23,3 +24,35 @@
     </div>
   </div>
 </div>
+=======
+<div class= "container">
+  <div class= "row">
+    <h3 class= "text-center">Contact Us</h3>
+    
+    <div class= "col-md-4 col-md-offset-4">
+        <div class= "well">
+        <%= form_for "/contacts" do |f| %>
+        <div class = "form-group">
+          <%= f.label :Name %>
+          <%= f.text_field :Name, class: 'form-control' %>
+        </div>
+        
+         <div class = "form-group">
+          <%= f.label :Email %>
+          <%= f.text_field :Email, class: 'form-control' %>
+         </div>
+         
+         <div class = "form-group">
+          <%= f.label :Comments %>
+          <%= f.text_field :Comments, class: 'form-control' %>
+        </div>
+        
+          <%= f.submit 'Submit', class: 'btn btn-default' %>
+        <% end %>
+      </div>  
+    </div>
+  </div>
+</div>
+
+ 
+>>>>>>> 38729442c712dfceccdb259184d418a596724c9c
