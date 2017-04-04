@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   # show is what you use if you want to see an individual thing
   
   def index
-    
+    @users = User.includes(:profile) 
   end
   
   def show
